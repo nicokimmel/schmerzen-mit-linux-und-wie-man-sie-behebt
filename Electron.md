@@ -1,6 +1,6 @@
-# Electron Apps öffnen sich nicht unter Wayland
+# Electron
 
-## Lösungen
+## Apps öffnen sich nicht unter Wayland
 
 - Variable `ELECTRON_OZONE_PLATFORM_HINT=auto` in `/etc/environment` setzen.
 

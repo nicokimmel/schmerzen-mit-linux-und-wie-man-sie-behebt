@@ -2,7 +2,7 @@
 
 ## Gnome startet manchmal X11 statt Wayland
 
-- Kernel-Flag `nvidia_drm.modeset=1"` in `/etc/default/grub` setzen. Danach `grub-mkconfig -o /boot/grub/grub.cfg`.
+- Kernel-Flag `nvidia_drm.modeset=1` in `/etc/default/grub` setzen. Danach `grub-mkconfig -o /boot/grub/grub.cfg`.
 
 - Module `MODULES=(nvidia nvidia_modeset nvidia_uvm nvidia_drm)` in `/etc/mkinitcpio.conf` setzen. Danach `mkinitcpio -P`
 

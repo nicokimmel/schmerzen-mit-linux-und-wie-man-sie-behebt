@@ -19,3 +19,7 @@
 ## VSCode öffnet sich statt Wechseldatenträger
 
 - Datei `~/.config/mimeapps.list` editieren und `inode/directory=org.gnome.Nautilus.desktop` einfügen.
+
+## Picture-in-Picture bleibt nicht im Vordergrund
+
+- Gnome Erweiterung "PiP on top" installieren
